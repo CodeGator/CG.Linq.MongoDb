@@ -83,7 +83,7 @@
   
   <h1 id="CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_3" data-uid="CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`3" class="text-break">Class MongoDbCrudRepository&lt;TOptions, TModel, TKey&gt;
   </h1>
-  <div class="markdown level0 summary"><p>This class is a MongoDb implementation of the <span class="xref">CG.Business.Repositories.ICrudRepository&lt;TModel, TKey&gt;</span>
+  <div class="markdown level0 summary"><p>This class is a base MongoDb implementation of the <span class="xref">CG.Business.Repositories.ICrudRepository&lt;TModel, TKey&gt;</span>
 interface.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
@@ -157,7 +157,7 @@ interface.</p>
   <h6><strong>Assembly</strong>: CG.Linq.MongoDb.dll</h6>
   <h5 id="CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_3_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MongoDbCrudRepository&lt;TOptions, TModel, TKey&gt; : CrudRepositoryBase&lt;TOptions, TModel, TKey&gt;, ICrudRepository&lt;TModel, TKey&gt;, ILinqRepository&lt;TModel&gt;, IRepository, IDisposable where TOptions : IOptions&lt;MongoDbRepositoryOptions&gt; where TModel : class, IModel&lt;TKey&gt; where TKey : new()</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class MongoDbCrudRepository&lt;TOptions, TModel, TKey&gt; : CrudRepositoryBase&lt;TOptions, TModel, TKey&gt;, ICrudRepository&lt;TModel, TKey&gt;, ILinqRepository&lt;TModel&gt;, IRepository, IDisposable where TOptions : IOptions&lt;MongoDbRepositoryOptions&gt; where TModel : class, IModel&lt;TKey&gt; where TKey : new()</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -195,7 +195,7 @@ class.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MongoDbCrudRepository(TOptions options, MongoClient client)</code></pre>
+    <pre><code class="lang-csharp hljs">protected MongoDbCrudRepository(TOptions options, MongoClient client)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -83,7 +83,7 @@
   
   <h1 id="CG_Linq_MongoDb_Repositories_MongoDbRepository_2" data-uid="CG.Linq.MongoDb.Repositories.MongoDbRepository`2" class="text-break">Class MongoDbRepository&lt;TOptions, TModel&gt;
   </h1>
-  <div class="markdown level0 summary"><p>This class is a MongoDb implementation of the <span class="xref">CG.Business.Repositories.ILinqRepository&lt;TModel&gt;</span>
+  <div class="markdown level0 summary"><p>This class is a base MongoDb implementation of the <span class="xref">CG.Business.Repositories.ILinqRepository&lt;TModel&gt;</span>
 interface.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
@@ -145,7 +145,7 @@ interface.</p>
   <h6><strong>Assembly</strong>: CG.Linq.MongoDb.dll</h6>
   <h5 id="CG_Linq_MongoDb_Repositories_MongoDbRepository_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MongoDbRepository&lt;TOptions, TModel&gt; : LinqRepositoryBase&lt;TOptions, TModel&gt;, ILinqRepository&lt;TModel&gt;, IRepository, IDisposable where TOptions : IOptions&lt;MongoDbRepositoryOptions&gt; where TModel : class, IModel</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class MongoDbRepository&lt;TOptions, TModel&gt; : LinqRepositoryBase&lt;TOptions, TModel&gt;, ILinqRepository&lt;TModel&gt;, IRepository, IDisposable where TOptions : IOptions&lt;MongoDbRepositoryOptions&gt; where TModel : class, IModel</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -178,7 +178,7 @@ class.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MongoDbRepository(TOptions options, MongoClient client)</code></pre>
+    <pre><code class="lang-csharp hljs">protected MongoDbRepository(TOptions options, MongoClient client)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
