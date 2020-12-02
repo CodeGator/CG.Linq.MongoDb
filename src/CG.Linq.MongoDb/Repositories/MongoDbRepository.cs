@@ -11,12 +11,12 @@ using System.Linq;
 namespace CG.Linq.MongoDb.Repositories
 {
     /// <summary>
-    /// This class is a MongoDb implementation of the <see cref="ILinqRepository{TModel}"/>
+    /// This class is a base MongoDb implementation of the <see cref="ILinqRepository{TModel}"/>
     /// interface.
     /// </summary>
     /// <typeparam name="TOptions">The options type associated with the repository.</typeparam>
     /// <typeparam name="TModel">The model type associated with the repository.</typeparam>
-    public class MongoDbRepository<TOptions, TModel> :
+    public abstract class MongoDbRepository<TOptions, TModel> :
         LinqRepositoryBase<TOptions, TModel>,
         ILinqRepository<TModel>
         where TModel : class, IModel
@@ -62,7 +62,7 @@ namespace CG.Linq.MongoDb.Repositories
         /// </summary>
         /// <param name="options">The options to use for the repository.</param>
         /// <param name="client">The CosmoDb client to use with the repository.</param>
-        public MongoDbRepository(
+        protected MongoDbRepository(
             TOptions options,
             MongoClient client
             ) : base(options)

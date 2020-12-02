@@ -16,13 +16,13 @@ using System.Threading.Tasks;
 namespace CG.Linq.MongoDb.Repositories
 {
     /// <summary>
-    /// This class is a MongoDb implementation of the <see cref="ICrudRepository{TModel, TKey}"/>
+    /// This class is a base MongoDb implementation of the <see cref="ICrudRepository{TModel, TKey}"/>
     /// interface.
     /// </summary>
     /// <typeparam name="TOptions">The options type associated with the repository.</typeparam>
     /// <typeparam name="TModel">The type of associated model.</typeparam>
     /// <typeparam name="TKey">The key type associated with the model.</typeparam>
-    public class MongoDbCrudRepository<TOptions, TModel, TKey> :
+    public abstract class MongoDbCrudRepository<TOptions, TModel, TKey> :
         CrudRepositoryBase<TOptions, TModel, TKey>,
         ICrudRepository<TModel, TKey>
         where TModel : class, IModel<TKey>
@@ -69,7 +69,7 @@ namespace CG.Linq.MongoDb.Repositories
         /// </summary>
         /// <param name="options">The options to use for the repository.</param>
         /// <param name="client">The CosmoDb client to use with the repository.</param>
-        public MongoDbCrudRepository(
+        protected MongoDbCrudRepository(
             TOptions options,
             MongoClient client
             ) : base(options)
