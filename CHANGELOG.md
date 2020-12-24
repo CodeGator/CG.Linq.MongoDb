@@ -5,6 +5,8 @@
 
 * I bumped the major version for the new year.
 
+* I added additional crud repository types with additional type parameters.
+
 ## 2020.1
 
 * I copied the code from the old CG.Linq.Mongo project.
