@@ -169,6 +169,330 @@ references:
   fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey).UpdateAsync
   nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey>.UpdateAsync
   nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey).UpdateAsync
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4
+  name: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.html
+  commentId: T:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4
+  name.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2)
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2)
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2)
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.#ctor(`0,MongoDB.Driver.MongoClient)
+  name: MongoDbCrudRepository(TOptions, MongoClient)
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_4__ctor__0_MongoDB_Driver_MongoClient_
+  commentId: M:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.#ctor(`0,MongoDB.Driver.MongoClient)
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.MongoDbCrudRepository(TOptions, MongoDB.Driver.MongoClient)
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).MongoDbCrudRepository(TOptions, MongoDB.Driver.MongoClient)
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.MongoDbCrudRepository(TOptions, MongoClient)
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).MongoDbCrudRepository(TOptions, MongoClient)
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.#ctor*
+  name: MongoDbCrudRepository
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_4__ctor_
+  commentId: Overload:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.#ctor
+  isSpec: "True"
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.MongoDbCrudRepository
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).MongoDbCrudRepository
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.MongoDbCrudRepository
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).MongoDbCrudRepository
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.AddAsync(`1,System.Threading.CancellationToken)
+  name: AddAsync(TModel, CancellationToken)
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_4_AddAsync__1_System_Threading_CancellationToken_
+  commentId: M:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.AddAsync(`1,System.Threading.CancellationToken)
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.AddAsync(TModel, System.Threading.CancellationToken)
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).AddAsync(TModel, System.Threading.CancellationToken)
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.AddAsync(TModel, CancellationToken)
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).AddAsync(TModel, CancellationToken)
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.AddAsync*
+  name: AddAsync
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_4_AddAsync_
+  commentId: Overload:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.AddAsync
+  isSpec: "True"
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.AddAsync
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).AddAsync
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.AddAsync
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).AddAsync
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.AsQueryable
+  name: AsQueryable()
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_4_AsQueryable
+  commentId: M:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.AsQueryable
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.AsQueryable()
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).AsQueryable()
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.AsQueryable()
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).AsQueryable()
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.AsQueryable*
+  name: AsQueryable
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_4_AsQueryable_
+  commentId: Overload:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.AsQueryable
+  isSpec: "True"
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.AsQueryable
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).AsQueryable
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.AsQueryable
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).AsQueryable
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.Client
+  name: Client
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_4_Client
+  commentId: P:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.Client
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.Client
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).Client
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.Client
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).Client
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.Client*
+  name: Client
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_4_Client_
+  commentId: Overload:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.Client
+  isSpec: "True"
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.Client
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).Client
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.Client
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).Client
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.Collection
+  name: Collection
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_4_Collection
+  commentId: P:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.Collection
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.Collection
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).Collection
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.Collection
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).Collection
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.Collection*
+  name: Collection
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_4_Collection_
+  commentId: Overload:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.Collection
+  isSpec: "True"
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.Collection
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).Collection
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.Collection
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).Collection
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.ContainerName
+  name: ContainerName
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_4_ContainerName
+  commentId: P:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.ContainerName
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.ContainerName
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).ContainerName
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.ContainerName
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).ContainerName
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.ContainerName*
+  name: ContainerName
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_4_ContainerName_
+  commentId: Overload:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.ContainerName
+  isSpec: "True"
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.ContainerName
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).ContainerName
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.ContainerName
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).ContainerName
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.Database
+  name: Database
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_4_Database
+  commentId: P:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.Database
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.Database
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).Database
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.Database
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).Database
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.Database*
+  name: Database
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_4_Database_
+  commentId: Overload:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.Database
+  isSpec: "True"
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.Database
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).Database
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.Database
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).Database
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.DeleteAsync(`1,System.Threading.CancellationToken)
+  name: DeleteAsync(TModel, CancellationToken)
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_4_DeleteAsync__1_System_Threading_CancellationToken_
+  commentId: M:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.DeleteAsync(`1,System.Threading.CancellationToken)
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.DeleteAsync(TModel, System.Threading.CancellationToken)
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).DeleteAsync(TModel, System.Threading.CancellationToken)
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.DeleteAsync(TModel, CancellationToken)
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).DeleteAsync(TModel, CancellationToken)
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.DeleteAsync*
+  name: DeleteAsync
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_4_DeleteAsync_
+  commentId: Overload:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.DeleteAsync
+  isSpec: "True"
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.DeleteAsync
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).DeleteAsync
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.DeleteAsync
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).DeleteAsync
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.UpdateAsync(`1,System.Threading.CancellationToken)
+  name: UpdateAsync(TModel, CancellationToken)
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_4_UpdateAsync__1_System_Threading_CancellationToken_
+  commentId: M:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.UpdateAsync(`1,System.Threading.CancellationToken)
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.UpdateAsync(TModel, System.Threading.CancellationToken)
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).UpdateAsync(TModel, System.Threading.CancellationToken)
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.UpdateAsync(TModel, CancellationToken)
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).UpdateAsync(TModel, CancellationToken)
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.UpdateAsync*
+  name: UpdateAsync
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_4_UpdateAsync_
+  commentId: Overload:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`4.UpdateAsync
+  isSpec: "True"
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.UpdateAsync
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).UpdateAsync
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2>.UpdateAsync
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2).UpdateAsync
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5
+  name: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.html
+  commentId: T:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5
+  name.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3)
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3)
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3)
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.#ctor(`0,MongoDB.Driver.MongoClient)
+  name: MongoDbCrudRepository(TOptions, MongoClient)
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_5__ctor__0_MongoDB_Driver_MongoClient_
+  commentId: M:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.#ctor(`0,MongoDB.Driver.MongoClient)
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.MongoDbCrudRepository(TOptions, MongoDB.Driver.MongoClient)
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).MongoDbCrudRepository(TOptions, MongoDB.Driver.MongoClient)
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.MongoDbCrudRepository(TOptions, MongoClient)
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).MongoDbCrudRepository(TOptions, MongoClient)
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.#ctor*
+  name: MongoDbCrudRepository
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_5__ctor_
+  commentId: Overload:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.#ctor
+  isSpec: "True"
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.MongoDbCrudRepository
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).MongoDbCrudRepository
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.MongoDbCrudRepository
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).MongoDbCrudRepository
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.AddAsync(`1,System.Threading.CancellationToken)
+  name: AddAsync(TModel, CancellationToken)
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_5_AddAsync__1_System_Threading_CancellationToken_
+  commentId: M:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.AddAsync(`1,System.Threading.CancellationToken)
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.AddAsync(TModel, System.Threading.CancellationToken)
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).AddAsync(TModel, System.Threading.CancellationToken)
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.AddAsync(TModel, CancellationToken)
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).AddAsync(TModel, CancellationToken)
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.AddAsync*
+  name: AddAsync
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_5_AddAsync_
+  commentId: Overload:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.AddAsync
+  isSpec: "True"
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.AddAsync
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).AddAsync
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.AddAsync
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).AddAsync
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.AsQueryable
+  name: AsQueryable()
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_5_AsQueryable
+  commentId: M:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.AsQueryable
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.AsQueryable()
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).AsQueryable()
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.AsQueryable()
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).AsQueryable()
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.AsQueryable*
+  name: AsQueryable
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_5_AsQueryable_
+  commentId: Overload:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.AsQueryable
+  isSpec: "True"
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.AsQueryable
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).AsQueryable
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.AsQueryable
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).AsQueryable
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.Client
+  name: Client
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_5_Client
+  commentId: P:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.Client
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.Client
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).Client
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.Client
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).Client
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.Client*
+  name: Client
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_5_Client_
+  commentId: Overload:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.Client
+  isSpec: "True"
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.Client
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).Client
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.Client
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).Client
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.Collection
+  name: Collection
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_5_Collection
+  commentId: P:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.Collection
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.Collection
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).Collection
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.Collection
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).Collection
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.Collection*
+  name: Collection
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_5_Collection_
+  commentId: Overload:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.Collection
+  isSpec: "True"
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.Collection
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).Collection
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.Collection
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).Collection
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.ContainerName
+  name: ContainerName
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_5_ContainerName
+  commentId: P:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.ContainerName
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.ContainerName
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).ContainerName
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.ContainerName
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).ContainerName
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.ContainerName*
+  name: ContainerName
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_5_ContainerName_
+  commentId: Overload:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.ContainerName
+  isSpec: "True"
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.ContainerName
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).ContainerName
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.ContainerName
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).ContainerName
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.Database
+  name: Database
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_5_Database
+  commentId: P:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.Database
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.Database
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).Database
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.Database
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).Database
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.Database*
+  name: Database
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_5_Database_
+  commentId: Overload:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.Database
+  isSpec: "True"
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.Database
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).Database
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.Database
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).Database
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.DeleteAsync(`1,System.Threading.CancellationToken)
+  name: DeleteAsync(TModel, CancellationToken)
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_5_DeleteAsync__1_System_Threading_CancellationToken_
+  commentId: M:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.DeleteAsync(`1,System.Threading.CancellationToken)
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.DeleteAsync(TModel, System.Threading.CancellationToken)
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).DeleteAsync(TModel, System.Threading.CancellationToken)
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.DeleteAsync(TModel, CancellationToken)
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).DeleteAsync(TModel, CancellationToken)
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.DeleteAsync*
+  name: DeleteAsync
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_5_DeleteAsync_
+  commentId: Overload:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.DeleteAsync
+  isSpec: "True"
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.DeleteAsync
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).DeleteAsync
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.DeleteAsync
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).DeleteAsync
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.UpdateAsync(`1,System.Threading.CancellationToken)
+  name: UpdateAsync(TModel, CancellationToken)
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_5_UpdateAsync__1_System_Threading_CancellationToken_
+  commentId: M:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.UpdateAsync(`1,System.Threading.CancellationToken)
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.UpdateAsync(TModel, System.Threading.CancellationToken)
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).UpdateAsync(TModel, System.Threading.CancellationToken)
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.UpdateAsync(TModel, CancellationToken)
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).UpdateAsync(TModel, CancellationToken)
+- uid: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.UpdateAsync*
+  name: UpdateAsync
+  href: api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.html#CG_Linq_MongoDb_Repositories_MongoDbCrudRepository_5_UpdateAsync_
+  commentId: Overload:CG.Linq.MongoDb.Repositories.MongoDbCrudRepository`5.UpdateAsync
+  isSpec: "True"
+  fullName: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.UpdateAsync
+  fullName.vb: CG.Linq.MongoDb.Repositories.MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).UpdateAsync
+  nameWithType: MongoDbCrudRepository<TOptions, TModel, TKey1, TKey2, TKey3>.UpdateAsync
+  nameWithType.vb: MongoDbCrudRepository(Of TOptions, TModel, TKey1, TKey2, TKey3).UpdateAsync
 - uid: CG.Linq.MongoDb.Repositories.MongoDbRepository`2
   name: MongoDbRepository<TOptions, TModel>
   href: api/CG.Linq.MongoDb.Repositories.MongoDbRepository-2.html

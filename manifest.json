@@ -26,6 +26,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.html",
+          "hash": "ashdl1CE0ClU6RCc3RHXvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.html",
+          "hash": "ybmKSRQCzLx6OUVTkrbF2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CG.Linq.MongoDb.Repositories.MongoDbRepository-2.yml",
       "output": {
         ".html": {
@@ -66,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Linq.MongoDb.Repositories.html",
-          "hash": "D4Gc02ogirICBexdSsBkSw=="
+          "hash": "X9Y5516ppwAMgdIlIaKB2Q=="
         }
       },
       "is_incremental": false,
@@ -78,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "t3rUJhGyGO+6W+Zy9fhp3A=="
+          "hash": "MGzbzvriQFFNL8Z3hX5bLg=="
         }
       },
       "is_incremental": false,
@@ -197,7 +221,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 5,
+          "total_file_count": 7,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
