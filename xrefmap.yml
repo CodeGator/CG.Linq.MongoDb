@@ -629,6 +629,45 @@ references:
   isSpec: "True"
   fullName: CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.DatabaseId
   nameWithType: MongoDbRepositoryOptions.DatabaseId
+- uid: CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.DropDatabase
+  name: DropDatabase
+  href: api/CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.html#CG_Linq_MongoDb_Repositories_Options_MongoDbRepositoryOptions_DropDatabase
+  commentId: P:CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.DropDatabase
+  fullName: CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.DropDatabase
+  nameWithType: MongoDbRepositoryOptions.DropDatabase
+- uid: CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.DropDatabase*
+  name: DropDatabase
+  href: api/CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.html#CG_Linq_MongoDb_Repositories_Options_MongoDbRepositoryOptions_DropDatabase_
+  commentId: Overload:CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.DropDatabase
+  isSpec: "True"
+  fullName: CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.DropDatabase
+  nameWithType: MongoDbRepositoryOptions.DropDatabase
+- uid: CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.EnsureCreated
+  name: EnsureCreated
+  href: api/CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.html#CG_Linq_MongoDb_Repositories_Options_MongoDbRepositoryOptions_EnsureCreated
+  commentId: P:CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.EnsureCreated
+  fullName: CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.EnsureCreated
+  nameWithType: MongoDbRepositoryOptions.EnsureCreated
+- uid: CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.EnsureCreated*
+  name: EnsureCreated
+  href: api/CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.html#CG_Linq_MongoDb_Repositories_Options_MongoDbRepositoryOptions_EnsureCreated_
+  commentId: Overload:CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.EnsureCreated
+  isSpec: "True"
+  fullName: CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.EnsureCreated
+  nameWithType: MongoDbRepositoryOptions.EnsureCreated
+- uid: CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.SeedDatabase
+  name: SeedDatabase
+  href: api/CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.html#CG_Linq_MongoDb_Repositories_Options_MongoDbRepositoryOptions_SeedDatabase
+  commentId: P:CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.SeedDatabase
+  fullName: CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.SeedDatabase
+  nameWithType: MongoDbRepositoryOptions.SeedDatabase
+- uid: CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.SeedDatabase*
+  name: SeedDatabase
+  href: api/CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.html#CG_Linq_MongoDb_Repositories_Options_MongoDbRepositoryOptions_SeedDatabase_
+  commentId: Overload:CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.SeedDatabase
+  isSpec: "True"
+  fullName: CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.SeedDatabase
+  nameWithType: MongoDbRepositoryOptions.SeedDatabase
 - uid: CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.Uri
   name: Uri
   href: api/CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.html#CG_Linq_MongoDb_Repositories_Options_MongoDbRepositoryOptions_Uri
@@ -642,3 +681,68 @@ references:
   isSpec: "True"
   fullName: CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.Uri
   nameWithType: MongoDbRepositoryOptions.Uri
+- uid: Microsoft.AspNetCore.Builder
+  name: Microsoft.AspNetCore.Builder
+  href: api/Microsoft.AspNetCore.Builder.html
+  commentId: N:Microsoft.AspNetCore.Builder
+  fullName: Microsoft.AspNetCore.Builder
+  nameWithType: Microsoft.AspNetCore.Builder
+- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
+  name: ApplicationBuilderExtensions
+  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html
+  commentId: T:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
+  nameWithType: ApplicationBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb*
+  name: UseCosmoDb
+  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseCosmoDb_
+  commentId: Overload:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb
+  isSpec: "True"
+  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb
+  nameWithType: ApplicationBuilderExtensions.UseCosmoDb
+- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Builder.SeedAction{``0})
+  name: UseCosmoDb<TClient, TOptions>(IApplicationBuilder, IWebHostEnvironment, SeedAction<TClient>)
+  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseCosmoDb__2_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Microsoft_AspNetCore_Builder_SeedAction___0__
+  commentId: M:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Builder.SeedAction{``0})
+  name.vb: UseCosmoDb(Of TClient, TOptions)(IApplicationBuilder, IWebHostEnvironment, SeedAction(Of TClient))
+  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb<TClient, TOptions>(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, Microsoft.AspNetCore.Builder.SeedAction<TClient>)
+  fullName.vb: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb(Of TClient, TOptions)(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, Microsoft.AspNetCore.Builder.SeedAction(Of TClient))
+  nameWithType: ApplicationBuilderExtensions.UseCosmoDb<TClient, TOptions>(IApplicationBuilder, IWebHostEnvironment, SeedAction<TClient>)
+  nameWithType.vb: ApplicationBuilderExtensions.UseCosmoDb(Of TClient, TOptions)(IApplicationBuilder, IWebHostEnvironment, SeedAction(Of TClient))
+- uid: Microsoft.AspNetCore.Builder.SeedAction`1
+  name: SeedAction<TClient>
+  href: api/Microsoft.AspNetCore.Builder.SeedAction-1.html
+  commentId: T:Microsoft.AspNetCore.Builder.SeedAction`1
+  name.vb: SeedAction(Of TClient)
+  fullName: Microsoft.AspNetCore.Builder.SeedAction<TClient>
+  fullName.vb: Microsoft.AspNetCore.Builder.SeedAction(Of TClient)
+  nameWithType: SeedAction<TClient>
+  nameWithType.vb: SeedAction(Of TClient)
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  href: api/Microsoft.Extensions.DependencyInjection.html
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  name: ServiceCollectionExtensions
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html
+  commentId: T:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  nameWithType: ServiceCollectionExtensions
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddMongoDbRepositories*
+  name: AddMongoDbRepositories
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddMongoDbRepositories_
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddMongoDbRepositories
+  isSpec: "True"
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddMongoDbRepositories
+  nameWithType: ServiceCollectionExtensions.AddMongoDbRepositories
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddMongoDbRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name: AddMongoDbRepositories<TOptions>(IServiceCollection, IConfiguration)
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddMongoDbRepositories__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddMongoDbRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name.vb: AddMongoDbRepositories(Of TOptions)(IServiceCollection, IConfiguration)
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddMongoDbRepositories<TOptions>(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  fullName.vb: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddMongoDbRepositories(Of TOptions)(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: ServiceCollectionExtensions.AddMongoDbRepositories<TOptions>(IServiceCollection, IConfiguration)
+  nameWithType.vb: ServiceCollectionExtensions.AddMongoDbRepositories(Of TOptions)(IServiceCollection, IConfiguration)
