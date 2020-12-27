@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <Copyright>Copyright © 2011 - 2020 by CodeGator. All rights reserved.</Copyright>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Copyright>Copyright © 2011 - 2021 by CodeGator. All rights reserved.</Copyright>
     <Description>This package contains MongoDb extensions used by other CodeGator packages. 
 
 Platforms supported:
-    .NET Standard 2.0 or above</Description>
+    .NET Core 3.1 or above</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/CodeGator/CG.Linq.MongoDb</PackageProjectUrl>
     <RepositoryUrl>https://github.com/CodeGator/CG.Linq.MongoDb</RepositoryUrl>
@@ -17,6 +17,10 @@ Platforms supported:
     <Company>CodeGator</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp3.1\CG.Linq.MongoDb.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -51,4 +55,8 @@ Platforms supported:
     </None>
   </ItemGroup>
 
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+	
 </Project>
