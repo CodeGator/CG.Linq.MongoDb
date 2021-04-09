@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ApplicationBuilderExtensions
    ">
-    <meta name="generator" content="docfx 2.56.6.0">
+    <meta name="generator" content="docfx 2.57.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -125,7 +125,7 @@ type.</p>
   <h3 id="methods">Methods
   </h3>
   <a id="Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseCosmoDb_" data-uid="Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb*"></a>
-  <h4 id="Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseCosmoDb__2_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Microsoft_AspNetCore_Builder_SeedAction___0__" data-uid="Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Builder.SeedAction{``0})">UseCosmoDb&lt;TClient, TOptions&gt;(IApplicationBuilder, IWebHostEnvironment, SeedAction&lt;TClient&gt;)</h4>
+  <h4 id="Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseCosmoDb__2_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Builder_SeedAction___0__" data-uid="Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Builder.SeedAction{``0})">UseCosmoDb&lt;TClient, TOptions&gt;(IApplicationBuilder, SeedAction&lt;TClient&gt;)</h4>
   <div class="markdown level1 summary"><p>This method performs any startup logic required by MongoDb, such as
 dropping the underlying database (if needed), or creating the underlying
 database (if needed), or adding seed data to an otherwise blank
@@ -134,7 +134,7 @@ database.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IApplicationBuilder UseCosmoDb&lt;TClient, TOptions&gt;(this IApplicationBuilder applicationBuilder, IWebHostEnvironment hostEnvironment, SeedAction&lt;TClient&gt; seedDelegate)
+    <pre><code class="lang-csharp hljs">public static IApplicationBuilder UseCosmoDb&lt;TClient, TOptions&gt;(this IApplicationBuilder applicationBuilder, SeedAction&lt;TClient&gt; seedDelegate)
     where TClient : MongoClient where TOptions : MongoDbRepositoryOptions</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -152,13 +152,6 @@ database.</p>
         <td><span class="parametername">applicationBuilder</span></td>
         <td><p>The application builder to use for
 the operation.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Hosting.IWebHostEnvironment</span></td>
-        <td><span class="parametername">hostEnvironment</span></td>
-        <td><p>The hosting environment to use for the
-operation.</p>
 </td>
       </tr>
       <tr>
