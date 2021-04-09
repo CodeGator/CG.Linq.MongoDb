@@ -1,5 +1,6 @@
 ﻿using CG.Linq.MongoDb.Repositories.Options;
 using CG.Validations;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
@@ -25,6 +26,7 @@ namespace Microsoft.Extensions.DependencyInjection
         /// <typeparam name="TOptions">The type of associated repository options.</typeparam>
         /// <param name="serviceCollection">The service collection to use for 
         /// the operation.</param>
+        /// <param name="dataProtector">The data pProtector to use for the operation.</param>
         /// <param name="configuration">The configuration to use for the operation.</param>
         /// <param name="serviceLifetime">The service lifetime to use for the operation.</param>
         /// <returns>The value of the <paramref name="serviceCollection"/>
@@ -33,6 +35,7 @@ namespace Microsoft.Extensions.DependencyInjection
         /// or more arguments are invalid, or missing.</exception>
         public static IServiceCollection AddMongoDbRepositories<TOptions>(
             this IServiceCollection serviceCollection,
+            IDataProtector dataProtector,
             IConfiguration configuration,
             ServiceLifetime serviceLifetime = ServiceLifetime.Scoped
             ) where TOptions : MongoDbRepositoryOptions, new()
@@ -43,6 +46,7 @@ namespace Microsoft.Extensions.DependencyInjection
 
             // Register the repository options.
             serviceCollection.ConfigureOptions<TOptions>(
+                dataProtector,
                 configuration
                 );
 

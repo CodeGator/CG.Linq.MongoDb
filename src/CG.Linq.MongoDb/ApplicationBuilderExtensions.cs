@@ -1,6 +1,5 @@
 ﻿using CG.Linq.MongoDb.Repositories.Options;
 using CG.Validations;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
@@ -47,8 +46,6 @@ namespace Microsoft.AspNetCore.Builder
         /// <typeparam name="TOptions">The type of associated options.</typeparam>
         /// <param name="applicationBuilder">The application builder to use for 
         /// the operation.</param>
-        /// <param name="hostEnvironment">The hosting environment to use for the
-        /// operation.</param>
         /// <param name="seedDelegate">A delegate for seeding the database with 
         /// startup data.</param>
         /// <returns>The value of the <paramref name="applicationBuilder"/>
@@ -57,14 +54,12 @@ namespace Microsoft.AspNetCore.Builder
         /// or more arguments are invalid, or missing.</exception>
         public static IApplicationBuilder UseCosmoDb<TClient, TOptions>(
             this IApplicationBuilder applicationBuilder,
-            IWebHostEnvironment hostEnvironment,
             SeedAction<TClient> seedDelegate
             ) where TClient : MongoClient
               where TOptions : MongoDbRepositoryOptions
         {
             // Validate the parameters before attempting to use them.
             Guard.Instance().ThrowIfNull(applicationBuilder, nameof(applicationBuilder))
-                .ThrowIfNull(hostEnvironment, nameof(hostEnvironment))
                 .ThrowIfNull(seedDelegate, nameof(seedDelegate));
 
             // Get the registered options.
@@ -86,47 +81,39 @@ namespace Microsoft.AspNetCore.Builder
                     // Get a CosmoDb client.
                     var client = scope.ServiceProvider.GetService<TClient>();
 
-                    // Only perform data seeding on a developers machine.
-                    if (hostEnvironment.EnvironmentName == "Development")
+                    // Should we drop the database? 
+                    if (options.Value.DropDatabase)
                     {
-                        // Should we drop the database? 
-                        if (options.Value.DropDatabase)
-                        {
-                            // Drop the database.
-                            client.DropDatabase(
-                                options.Value.DatabaseId
-                                );
+                        // Drop the database.
+                        client.DropDatabase(
+                            options.Value.DatabaseId
+                            );
 
-                            // Keep track of what we've done.
-                            wasDropped = true;
-                        }
+                        // Keep track of what we've done.
+                        wasDropped = true;
+                    }
 
-                        // Should we make sure the database exists?
-                        if (options.Value.EnsureCreated)
-                        {
-                            // Get the database.
-                            var database = client.GetDatabase(
-                                options.Value.DatabaseId
-                                );
+                    // Should we make sure the database exists?
+                    if (options.Value.EnsureCreated)
+                    {
+                        // Get the database.
+                        var database = client.GetDatabase(
+                            options.Value.DatabaseId
+                            );
 
-                            // Keep track of what we've done.
-                            wasCreated = true;
-                        }
+                        // Keep track of what we've done.
+                        wasCreated = true;
                     }
 
                     // Should we make sure the database has seed data?
                     if (options.Value.SeedDatabase)
                     {
-                        // Only perform data seeding on a developers machine.
-                        if (hostEnvironment.EnvironmentName == "Development")
-                        {
-                            // Perform the data seeding operation.
-                            seedDelegate(
-                                client,
-                                wasDropped,
-                                wasCreated
-                                );
-                        }
+                        // Perform the data seeding operation.
+                        seedDelegate(
+                            client,
+                            wasDropped,
+                            wasCreated
+                            );
                     }
                 }
             }
