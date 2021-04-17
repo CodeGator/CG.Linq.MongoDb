@@ -687,28 +687,28 @@ references:
   commentId: N:Microsoft.AspNetCore.Builder
   fullName: Microsoft.AspNetCore.Builder
   nameWithType: Microsoft.AspNetCore.Builder
-- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
-  name: ApplicationBuilderExtensions
-  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html
-  commentId: T:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
-  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
-  nameWithType: ApplicationBuilderExtensions
-- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb*
+- uid: Microsoft.AspNetCore.Builder.MongoDbApplicationBuilderExtensions
+  name: MongoDbApplicationBuilderExtensions
+  href: api/Microsoft.AspNetCore.Builder.MongoDbApplicationBuilderExtensions.html
+  commentId: T:Microsoft.AspNetCore.Builder.MongoDbApplicationBuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.MongoDbApplicationBuilderExtensions
+  nameWithType: MongoDbApplicationBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.MongoDbApplicationBuilderExtensions.UseCosmoDb*
   name: UseCosmoDb
-  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseCosmoDb_
-  commentId: Overload:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb
+  href: api/Microsoft.AspNetCore.Builder.MongoDbApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_MongoDbApplicationBuilderExtensions_UseCosmoDb_
+  commentId: Overload:Microsoft.AspNetCore.Builder.MongoDbApplicationBuilderExtensions.UseCosmoDb
   isSpec: "True"
-  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb
-  nameWithType: ApplicationBuilderExtensions.UseCosmoDb
-- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Builder.SeedAction{``0})
+  fullName: Microsoft.AspNetCore.Builder.MongoDbApplicationBuilderExtensions.UseCosmoDb
+  nameWithType: MongoDbApplicationBuilderExtensions.UseCosmoDb
+- uid: Microsoft.AspNetCore.Builder.MongoDbApplicationBuilderExtensions.UseCosmoDb``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Builder.SeedAction{``0})
   name: UseCosmoDb<TClient, TOptions>(IApplicationBuilder, SeedAction<TClient>)
-  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseCosmoDb__2_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Builder_SeedAction___0__
-  commentId: M:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Builder.SeedAction{``0})
+  href: api/Microsoft.AspNetCore.Builder.MongoDbApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_MongoDbApplicationBuilderExtensions_UseCosmoDb__2_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Builder_SeedAction___0__
+  commentId: M:Microsoft.AspNetCore.Builder.MongoDbApplicationBuilderExtensions.UseCosmoDb``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Builder.SeedAction{``0})
   name.vb: UseCosmoDb(Of TClient, TOptions)(IApplicationBuilder, SeedAction(Of TClient))
-  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb<TClient, TOptions>(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Builder.SeedAction<TClient>)
-  fullName.vb: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb(Of TClient, TOptions)(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Builder.SeedAction(Of TClient))
-  nameWithType: ApplicationBuilderExtensions.UseCosmoDb<TClient, TOptions>(IApplicationBuilder, SeedAction<TClient>)
-  nameWithType.vb: ApplicationBuilderExtensions.UseCosmoDb(Of TClient, TOptions)(IApplicationBuilder, SeedAction(Of TClient))
+  fullName: Microsoft.AspNetCore.Builder.MongoDbApplicationBuilderExtensions.UseCosmoDb<TClient, TOptions>(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Builder.SeedAction<TClient>)
+  fullName.vb: Microsoft.AspNetCore.Builder.MongoDbApplicationBuilderExtensions.UseCosmoDb(Of TClient, TOptions)(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Builder.SeedAction(Of TClient))
+  nameWithType: MongoDbApplicationBuilderExtensions.UseCosmoDb<TClient, TOptions>(IApplicationBuilder, SeedAction<TClient>)
+  nameWithType.vb: MongoDbApplicationBuilderExtensions.UseCosmoDb(Of TClient, TOptions)(IApplicationBuilder, SeedAction(Of TClient))
 - uid: Microsoft.AspNetCore.Builder.SeedAction`1
   name: SeedAction<TClient>
   href: api/Microsoft.AspNetCore.Builder.SeedAction-1.html
@@ -724,25 +724,25 @@ references:
   commentId: N:Microsoft.Extensions.DependencyInjection
   fullName: Microsoft.Extensions.DependencyInjection
   nameWithType: Microsoft.Extensions.DependencyInjection
-- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
-  name: ServiceCollectionExtensions
-  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html
-  commentId: T:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
-  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
-  nameWithType: ServiceCollectionExtensions
-- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddMongoDbRepositories*
+- uid: Microsoft.Extensions.DependencyInjection.MongoDbServiceCollectionExtensions
+  name: MongoDbServiceCollectionExtensions
+  href: api/Microsoft.Extensions.DependencyInjection.MongoDbServiceCollectionExtensions.html
+  commentId: T:Microsoft.Extensions.DependencyInjection.MongoDbServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.MongoDbServiceCollectionExtensions
+  nameWithType: MongoDbServiceCollectionExtensions
+- uid: Microsoft.Extensions.DependencyInjection.MongoDbServiceCollectionExtensions.AddMongoDbRepositories*
   name: AddMongoDbRepositories
-  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddMongoDbRepositories_
-  commentId: Overload:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddMongoDbRepositories
+  href: api/Microsoft.Extensions.DependencyInjection.MongoDbServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_MongoDbServiceCollectionExtensions_AddMongoDbRepositories_
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.MongoDbServiceCollectionExtensions.AddMongoDbRepositories
   isSpec: "True"
-  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddMongoDbRepositories
-  nameWithType: ServiceCollectionExtensions.AddMongoDbRepositories
-- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddMongoDbRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  fullName: Microsoft.Extensions.DependencyInjection.MongoDbServiceCollectionExtensions.AddMongoDbRepositories
+  nameWithType: MongoDbServiceCollectionExtensions.AddMongoDbRepositories
+- uid: Microsoft.Extensions.DependencyInjection.MongoDbServiceCollectionExtensions.AddMongoDbRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
   name: AddMongoDbRepositories<TOptions>(IServiceCollection, IConfiguration, ServiceLifetime)
-  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddMongoDbRepositories__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_Microsoft_Extensions_DependencyInjection_ServiceLifetime_
-  commentId: M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddMongoDbRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  href: api/Microsoft.Extensions.DependencyInjection.MongoDbServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_MongoDbServiceCollectionExtensions_AddMongoDbRepositories__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_Microsoft_Extensions_DependencyInjection_ServiceLifetime_
+  commentId: M:Microsoft.Extensions.DependencyInjection.MongoDbServiceCollectionExtensions.AddMongoDbRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
   name.vb: AddMongoDbRepositories(Of TOptions)(IServiceCollection, IConfiguration, ServiceLifetime)
-  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddMongoDbRepositories<TOptions>(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
-  fullName.vb: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddMongoDbRepositories(Of TOptions)(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
-  nameWithType: ServiceCollectionExtensions.AddMongoDbRepositories<TOptions>(IServiceCollection, IConfiguration, ServiceLifetime)
-  nameWithType.vb: ServiceCollectionExtensions.AddMongoDbRepositories(Of TOptions)(IServiceCollection, IConfiguration, ServiceLifetime)
+  fullName: Microsoft.Extensions.DependencyInjection.MongoDbServiceCollectionExtensions.AddMongoDbRepositories<TOptions>(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  fullName.vb: Microsoft.Extensions.DependencyInjection.MongoDbServiceCollectionExtensions.AddMongoDbRepositories(Of TOptions)(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  nameWithType: MongoDbServiceCollectionExtensions.AddMongoDbRepositories<TOptions>(IServiceCollection, IConfiguration, ServiceLifetime)
+  nameWithType.vb: MongoDbServiceCollectionExtensions.AddMongoDbRepositories(Of TOptions)(IServiceCollection, IConfiguration, ServiceLifetime)
