@@ -26,9 +26,9 @@ namespace Microsoft.AspNetCore.Builder
 
     /// <summary>
     /// This class contains extension methods related to the <see cref="IApplicationBuilder"/>
-    /// type.
+    /// type, for registering types related to MongoDb
     /// </summary>
-    public static partial class ApplicationBuilderExtensions
+    public static partial class MongoDbApplicationBuilderExtensions
     {
         // *******************************************************************
         // Public methods.
