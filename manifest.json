@@ -13,168 +13,12 @@
       "is_incremental": false
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-3.html",
-          "hash": "iMSzhe82HpquwiOEH0YjiLkrDXcXw7j79jhVdPxfjKs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-4.html",
-          "hash": "3QzYzsa25ni5W3gJDPk53bxgAUkkAydn3yNzvOxR/2U="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Linq.MongoDb.Repositories.MongoDbCrudRepository-5.html",
-          "hash": "sJWQPRo7tgYd+TRq/HGFsjR4fGob2gstjpAe/pfMdn8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Linq.MongoDb.Repositories.MongoDbRepository-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Linq.MongoDb.Repositories.MongoDbRepository-2.html",
-          "hash": "ej7wceaga3PvW5G4iTbak8Rz21dExLYNfQd9DdsYPDs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Linq.MongoDb.Repositories.Options.MongoDbRepositoryOptions.html",
-          "hash": "kulki0q8jgctKf4T/7f6Iyq9IQaCZhVyTlWr4KeXlns="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Linq.MongoDb.Repositories.Options.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Linq.MongoDb.Repositories.Options.html",
-          "hash": "2YzcWkaZ+9Q+ZsGsBff9mDo8PYwJEl6hBA9l5rTKdgk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Linq.MongoDb.Repositories.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Linq.MongoDb.Repositories.html",
-          "hash": "oYNmA3KuWWax7nlmWLTESkIqp/Vy6Rsv3RCthyoCL+k="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.AspNetCore.Builder.MongoDbApplicationBuilderExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Microsoft.AspNetCore.Builder.MongoDbApplicationBuilderExtensions.html",
-          "hash": "zC64QxG24C9YpXJBX5GbsZGn9HiFYaDAyqZRlTDzMfg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.AspNetCore.Builder.SeedAction-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Microsoft.AspNetCore.Builder.SeedAction-1.html",
-          "hash": "zSXcS87rG1xDLnONikp7YYp0mPavDnumGIb63RnzXds="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.AspNetCore.Builder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Microsoft.AspNetCore.Builder.html",
-          "hash": "2G601aKfQ2cnp9hkEDeCHf52p/arENM5ZhVk7bdckwA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.MongoDbServiceCollectionExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Microsoft.Extensions.DependencyInjection.MongoDbServiceCollectionExtensions.html",
-          "hash": "ijRj+GZ0zdGPmNqpe8DtrVD/mapyC7/8fHlegCjndAY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Microsoft.Extensions.DependencyInjection.html",
-          "hash": "XG+01ZjJTFgjctmBT0Y5sPWJwDJ0X5gXPE0pZl+Wq/w="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "Eo0V7zzdw1oK4UZu+QekDrl315fP7aWEIzgTf+nb6u4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "gcp1JB3/cLklcT+72krfnba+6CuoFkaQtheZ9cEBdjQ="
+          "hash": "OgOIdp+68sKjWkO8X7/eMKamv9SPvmhi1lIB7IfCk/4="
         }
       },
       "is_incremental": false,
@@ -242,7 +86,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "o1uqXy/igvbgnMwRxBD1Ujvaki197FfRmIj+woM5hmY="
+          "hash": "T4EMc07jO+kYY4TIgwOZmiM5fgb0LcmKa1lAG5ndXUs="
         }
       },
       "is_incremental": false,
@@ -254,7 +98,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "ci9GIeeHln7V/Tz1U7v5+SNgN0nupqhP21gsR8ML0lY="
+          "hash": "vMPOXY/6E2PJblGTiEf3fBCwvkEzd9rlTvTaGXG5TwQ="
         }
       },
       "is_incremental": false,
@@ -276,12 +120,6 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 12,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
