@@ -19,3 +19,10 @@ Commonly used types:
 
 #### How do I contact you?
 If you've spotted a bug in the code please use the project Issues [HERE](https://github.com/CodeGator/CG.Linq.MongoDb/issues)
+
+We have a discussion group [HERE](https://github.com/CodeGator/CG.Linq.MongooDb/discussions)
+
+#### Is there any documentation?
+There is developer documentation [HERE](https://codegator.github.io/CG.Linq.MongooDb/)
+
+We also blog about projects like this one on our website, [HERE](http://www.codegator.com)
