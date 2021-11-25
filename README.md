@@ -15,7 +15,7 @@ Commonly used types:
 * CG.Linq.MongoDb.Repositories.MongoDbRepository
 
 #### What platform(s) does it support?
-* .NET 5.x or higher.
+* .NET 6.x or higher.
 
 #### How do I contact you?
 If you've spotted a bug in the code please use the project Issues [HERE](https://github.com/CodeGator/CG.Linq.MongoDb/issues)
